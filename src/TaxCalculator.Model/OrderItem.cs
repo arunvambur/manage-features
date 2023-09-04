@@ -1,4 +1,4 @@
-namespace TaxCalculator
+namespace TaxCalculator.Model
 {
     public class Order
     {

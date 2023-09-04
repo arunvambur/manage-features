@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\TaxCalculator.Contract\TaxCalculator.Contract.csproj" />
+  </ItemGroup>
+
+  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+    <Exec Command="if not exist $(SolutionDir)TaxCalculator\bin\Debug\net7.0\Calculators mkdir $(SolutionDir)TaxCalculator\bin\Debug\net7.0\Calculators&#xD;&#xA;copy /Y &quot;$(TargetDir)$(ProjectName).dll&quot; &quot;$(SolutionDir)TaxCalculator\bin\Debug\net7.0\Calculators\$(ProjectName).dll&quot;" />
+  </Target>
+
+</Project>

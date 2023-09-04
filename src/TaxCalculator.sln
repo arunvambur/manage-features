@@ -3,17 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaxCalculator", "TaxCalculator.csproj", "{1B391664-156E-49B9-821E-A835E90BEFF0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaxCalculator", "TaxCalculator\TaxCalculator.csproj", "{1B391664-156E-49B9-821E-A835E90BEFF0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaxCalculator.Contract", "..\TaxCalculator.Contract\TaxCalculator.Contract.csproj", "{6D3238D2-50EF-44ED-9A60-32BA1E18C753}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaxCalculator.Contract", "TaxCalculator.Contract\TaxCalculator.Contract.csproj", "{6D3238D2-50EF-44ED-9A60-32BA1E18C753}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaxCalculator.Model", "..\TaxCalculator.Model\TaxCalculator.Model.csproj", "{ED70CC79-3DCB-4076-A53D-BD97F153053F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaxCalculator.Model", "TaxCalculator.Model\TaxCalculator.Model.csproj", "{ED70CC79-3DCB-4076-A53D-BD97F153053F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Calculators", "Calculators", "{E424E550-923C-4B0D-AF0D-6E6640580240}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaxCalculator.US", "..\Calculators\TaxCalculator.US\TaxCalculator.US.csproj", "{25023E04-0E5B-4774-A322-57B23C1D97A0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaxCalculator.US", "Calculators\TaxCalculator.US\TaxCalculator.US.csproj", "{25023E04-0E5B-4774-A322-57B23C1D97A0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaxCalculator.IN", "..\Calculators\TaxCalculator.IN\TaxCalculator.IN.csproj", "{2E41CF79-D6FF-403C-9AD8-5C76AACD0236}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaxCalculator.IN", "Calculators\TaxCalculator.IN\TaxCalculator.IN.csproj", "{2E41CF79-D6FF-403C-9AD8-5C76AACD0236}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
